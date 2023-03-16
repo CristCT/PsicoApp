@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/login_degradado"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="-1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="@color/gray"
+                android:text="@string/agregue_datos_del_paciente"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayout8"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:fadeScrollbars="false"
+                        android:importantForAutofill="no"
+                        app:errorEnabled="true"
+                        app:layout_constraintBottom_toTopOf="@+id/textInputLayout9"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView"
+                        app:endIconMode="clear_text"
+                        tools:ignore="TextContrastCheck,TouchTargetSizeCheck">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextRutPa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/custom_person_icon"
+                            android:drawablePadding="12dp"
+                            android:hint="@string/rutPa"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            tools:ignore="TextContrastCheck" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayout9"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:fadeScrollbars="false"
+                        android:importantForAutofill="no"
+                        app:errorEnabled="true"
+                        app:layout_constraintBottom_toTopOf="@+id/textInputLayout10"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/textInputLayout8"
+                        app:layout_constraintTop_toBottomOf="@+id/textInputLayout8"
+                        tools:ignore="TextContrastCheck,TouchTargetSizeCheck">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextNombrePa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/custom_person_icon"
+                            android:drawablePadding="12dp"
+                            android:hint="@string/nombre"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            tools:ignore="TextContrastCheck" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayout10"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="1dp"
+                        android:fadeScrollbars="false"
+                        android:importantForAutofill="no"
+                        app:errorEnabled="true"
+                        app:layout_constraintBottom_toTopOf="@+id/textInputLayout11"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/textInputLayout9"
+                        app:layout_constraintTop_toBottomOf="@+id/textInputLayout9"
+                        tools:ignore="TextContrastCheck,TouchTargetSizeCheck">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextApellidoPa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/custom_person_icon"
+                            android:drawablePadding="12dp"
+                            android:hint="@string/apellidos"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            tools:ignore="TextContrastCheck" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayout11"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:fadeScrollbars="false"
+                        android:importantForAutofill="no"
+                        app:errorEnabled="true"
+                        app:layout_constraintBottom_toTopOf="@+id/textInputLayout12"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textInputLayout10"
+                        tools:ignore="TextContrastCheck,TouchTargetSizeCheck">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextEmailPa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/custom_email_icon"
+                            android:drawablePadding="12dp"
+                            android:hint="@string/emailPa"
+                            android:inputType="textEmailAddress"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            tools:ignore="TextContrastCheck" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayout12"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:fadeScrollbars="false"
+                        android:importantForAutofill="no"
+                        app:errorEnabled="true"
+                        app:layout_constraintBottom_toTopOf="@+id/textInputLayout13"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textInputLayout11"
+                        tools:ignore="TextContrastCheck,TouchTargetSizeCheck">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextPhonePa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/custom_phone_icon"
+                            android:drawablePadding="12dp"
+                            android:hint="@string/n_mero_de_celularPa"
+                            android:inputType="phone"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            tools:ignore="TextContrastCheck" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayout13"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:fadeScrollbars="false"
+                        android:importantForAutofill="no"
+                        app:errorEnabled="true"
+                        app:layout_constraintBottom_toTopOf="@+id/textInputLayout14"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textInputLayout12"
+                        tools:ignore="TextContrastCheck,TouchTargetSizeCheck">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextMotivoConsultaPa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/custom_phone_icon"
+                            android:drawablePadding="12dp"
+                            android:hint="@string/motivo_de_consulta"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            tools:ignore="TextContrastCheck" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayout14"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:fadeScrollbars="false"
+                        android:importantForAutofill="no"
+                        app:errorEnabled="true"
+                        app:layout_constraintBottom_toTopOf="@+id/buttonAgregarPa"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textInputLayout13"
+                        tools:ignore="TextContrastCheck,TouchTargetSizeCheck">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextDiagnosticoPa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/custom_phone_icon"
+                            android:drawablePadding="12dp"
+                            android:hint="@string/diagnostico"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            tools:ignore="TextContrastCheck" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayout15"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:fadeScrollbars="false"
+                        android:importantForAutofill="no"
+                        app:errorEnabled="true"
+                        app:layout_constraintBottom_toTopOf="@+id/buttonAgregarPa"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textInputLayout13"
+                        tools:ignore="TextContrastCheck,TouchTargetSizeCheck">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextDiagnosticoPa2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/custom_phone_icon"
+                            android:drawablePadding="12dp"
+                            android:hint="Probando"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            tools:ignore="TextContrastCheck" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayout115"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:fadeScrollbars="false"
+                        android:importantForAutofill="no"
+                        app:errorEnabled="true"
+                        app:layout_constraintBottom_toTopOf="@+id/buttonAgregarPa"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textInputLayout13"
+                        tools:ignore="TextContrastCheck,TouchTargetSizeCheck">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextDiagnosticoPa32"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/custom_phone_icon"
+                            android:drawablePadding="12dp"
+                            android:hint="Probando"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            tools:ignore="TextContrastCheck" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayout125"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:fadeScrollbars="false"
+                        android:importantForAutofill="no"
+                        app:errorEnabled="true"
+                        app:layout_constraintBottom_toTopOf="@+id/buttonAgregarPa"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textInputLayout13"
+                        tools:ignore="TextContrastCheck,TouchTargetSizeCheck">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextDiagnosticoPa203"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/custom_phone_icon"
+                            android:drawablePadding="12dp"
+                            android:hint="Probando"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            tools:ignore="TextContrastCheck" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayout152"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:fadeScrollbars="false"
+                        android:importantForAutofill="no"
+                        app:errorEnabled="true"
+                        app:layout_constraintBottom_toTopOf="@+id/buttonAgregarPa"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textInputLayout13"
+                        tools:ignore="TextContrastCheck,TouchTargetSizeCheck">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextDiagnosticoPa23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/custom_phone_icon"
+                            android:drawablePadding="12dp"
+                            android:hint="Probando"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            tools:ignore="TextContrastCheck" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/linearend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/gray">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonAgregarPa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/agregarPa"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

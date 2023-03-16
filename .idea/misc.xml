@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/botton_background_light_purple.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/botton_background_white.xml" value="0.2140625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/constraintlayout_background_home.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/custom_buttonlogin.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/custom_delete_focused.xml" value="0.29010416666666666" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/custom_email_icon.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/custom_input.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/custom_lock_focused.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/custom_lock_icon.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/custom_person_focused.xml" value="0.2537037037037037" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/custom_person_icon.xml" value="0.2537037037037037" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/custom_phone_icon.xml" value="0.2609375" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/custom_roundedbutton.xml" value="0.29010416666666666" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/degradado_card.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_account_circle.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_add_photo.xml" value="0.3351851851851852" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_baseline_account.xml" value="0.28229166666666666" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_baseline_error_24.xml" value="0.28229166666666666" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_delete.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_delete_focused.xml" value="0.29010416666666666" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_email.xml" value="0.2601851851851852" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_email_focused.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_filter_list.xml" value="0.3728205128205128" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_image.xml" value="0.3351851851851852" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2537037037037037" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_lock.xml" value="0.2601851851851852" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_lock_focused.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_logout.xml" value="0.290625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_menu_camera.xml" value="0.3472222222222222" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.3472222222222222" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.3472222222222222" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_new_person_add.xml" value="0.2774358974358974" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_person.xml" value="0.2537037037037037" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_person_focused.xml" value="0.2537037037037037" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_person_home.xml" value="0.290625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_phone.xml" value="0.2609375" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_phone_focused.xml" value="0.2609375" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/ic_warning.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/login_degradado.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/myrect.xml" value="0.290625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/progress_animation.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/roundedbutton.xml" value="0.33" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/roundedbutton_focused.xml" value="0.29010416666666666" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/searchview_background.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/style_button_red.xml" value="0.2609375" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/toast_background.xml" value="0.1175925925925926" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/drawable/white_btn_background.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_ficha_imagen_examen_pa.xml" value="0.3625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_ficha_pacientes.xml" value="0.33" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_home_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_homeprueba.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_mostrar.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_mostrar_fotos_pa.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_mostrar_fotos_pa2.xml" value="0.1875" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_nuevo_paciente.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_subir_fotos_pa.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/activity_test.xml" value="0.3625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/app_bar_home_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/content_home_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/fragment_gallery.xml" value="0.3625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/image_item.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/item.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/items.xml" value="0.1" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/nav_header_home_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/style_button_red.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/test.xml" value="0.22" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/test2.xml" value="0.22" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/layout/toast_loginfailed_layout.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/menu/home_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/menu/menu_filter_pa.xml" value="0.3625" />
+        <entry key="..\:/Users/Cristian/AndroidStudioProjects/PsicoApp/app/src/main/res/menu/menu_filter_pa_fotos.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_filter_list"
+        android:id="@+id/menu_pa_fotos_titulo"
+        android:title="Buscar por"
+        android:enabled="false"
+        app:showAsAction="never">
+    </item>
+
+    <group >
+        <item
+            android:id="@+id/menu_pa_nombre"
+            android:icon="@drawable/ic_filter_list"
+            android:title="Nombre"
+            app:showAsAction="ifRoom">
+        </item>
+        <item
+            android:id="@+id/menu_pa_observacion"
+            android:icon="@drawable/ic_filter_list"
+            android:title="Observación"
+            app:showAsAction="ifRoom">
+        </item>
+    </group>
+
+</menu>
